@@ -1,0 +1,73 @@
+.todo-create {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    width: 600px;
+    border: 1px solid rgb(169, 162, 197);
+    border-radius: 5px;
+    border: none;
+    padding: 30px 0px;
+    padding-left: 30px;
+
+
+}
+
+.todo-input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #e5e9ee;
+
+}
+
+.todo-btn {
+    font-weight: 700;
+    padding: 5px;
+    background-color: bisque;
+    color: brown;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+}
+
+.todo-btn:active {
+    transform: scale(0.8);
+}
+
+.todo-div {
+    border-bottom: 1px solid #6e9fdc;
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #e5e9ee;
+
+}
+
+.todo-icons {
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.todo-icons:hover {
+    transform: scale(1.3);
+}
+
+.todo-inp {
+    width: 500px;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 3px;
+    outline: none;
+}
